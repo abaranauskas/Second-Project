@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Github hub</title>
+        <link rel="stylesheet" href="css/site.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                 <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li ><a href="Contact.html">Contact</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <A href="index.html"><img src="img/logo.gif" alt="logo" class='bordered-image'></A>
+                </div>
+                <div>This is a to searche Github for interesting projects.</div>               
+            </header>
+            <section id="main">
+                <p>In this <em>sample site</em>, we'll show a list of <a href="http://www.github.com">Github</a> projects <span>and the data</span> about <b>those projects</b>.</p>
+                <form action="http://wilder.azurewebsites.net/echo" method="post" class='bordered-image simple-form' id="gitHubSearchForm">
+                    <label for="SearchPhrase">Search Phrase:</label>
+                    <input name="SearchPhrase" id='SearchPhrase'><br>
+                    <input type="checkbox" name="UseStars" id="UseStars" checked="true">
+                    <label for='Use Stars'>Use Stars</label><br>
+                    <label for='LangChoice'>Language:</label>
+                    <select name="LangChoice" id="LangChoice">
+                        <option slected>ALL</option>
+                        <option>JavaScrip</option>
+                        <option>C#</option>
+                        <option>Java</option>
+                        <option>Ruby</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="search">
+                </form>
+                <div id='results' class="bordered-image">
+                    <button id='toggleButton'>Hide</button>
+                    <div id='resultlist'>This is where results will go</div>
+                </div>
+            </section>
+            <footer>
+                &copy;2015 Shwn Wildermuth LLC
+            </footer>
+        </div>
+        <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+        <script type='text/javascript' src="js/index.js"></script>
+        
+    </body>
+    
+    
+<!--  <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script> -->
+</html>

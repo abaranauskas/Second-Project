@@ -1,0 +1,110 @@
+/* Site.css*/
+
+header, footer{
+    background-color: lightgrey;
+    border: solid 1px black;
+    font-family: 'time new roman', serif;
+}
+
+footer{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+body{
+    font-family: segoe UI, Arial, helvetica, sans-serif;
+    font-size: 14px;
+    background-color: darkgreen;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: red;
+    }
+
+a:hover {
+    color: black
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bordered-image {
+   
+    border-radius: 2px;
+}
+    
+#main {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    color: #202020;
+    margin: 20px 0;
+    padding: 5px;
+}
+
+#results {
+    padding: 2px;
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.simple-form {
+    padding: 2px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    /*position: absolute;
+    bottom: 5px;
+    right: 5px; */
+   
+}
+
+.simple-form label {
+    font-weight: bold;
+}
+
+.simple-form input[type=text],
+#main select {
+    width: 150px
+}
+
+.simple-form input[type=submit]{
+    background-color: green;
+    color: white;
+    border-radius: 15px; 
+    padding: 3px;
+    margin-top: 5px;
+    }
+
+.container {
+    width: 989px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+}
+
+header nav {
+    float: right;
+    margin-right: 5px
+}
+
+header nav li {
+    display: inline;
+    font-size: 12px;
+}
+
+.result {
+    margin: 5px;
+    border: 1px solid #888;
+}
+
+.result .title {
+    font-weight: bold;
+}
